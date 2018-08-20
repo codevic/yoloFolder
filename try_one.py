@@ -81,5 +81,5 @@ mqtt.on_message = on_message
 # print(result)
 # Connect and wait for messages
 mqtt.connect()
-#while (True):
-   # time.sleep(1000)  # wait for messages
+while (True):
+    time.sleep(1000)  # wait for messages
