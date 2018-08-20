@@ -47,6 +47,7 @@ def on_connect(client, userdata, flags, rc):
     client.subscribe("config")
     client.subscribe("predict")
     client.subscribe("predict/results")
+    print("connected and trained")
 
 
 def on_message(client, userdata, message):
@@ -80,5 +81,5 @@ mqtt.on_message = on_message
 # print(result)
 # Connect and wait for messages
 mqtt.connect()
-while (True):
-    time.sleep(1000)  # wait for messages
+#while (True):
+   # time.sleep(1000)  # wait for messages
