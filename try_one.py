@@ -3,6 +3,8 @@ import sys
 import numpy as np
 # sys.path.insert(0, '/Users/Codeo/yolo_test_MQTT/darkflow/ClearBlade-Python-SDK')
 sys.path.insert(0, '/Users/Codeo/yolo_test_MQTT/darkflow/clearblade')
+sys.path.insert(1, 'darkflow/clearblade')
+sys.path.insert(2, 'darkflow')
 from clearblade.ClearBladeCore import System, Query, Developer, Users
 from darkflow.net.build import TFNet
 import cv2
@@ -14,8 +16,7 @@ from struct import *
 from PIL import Image
 from io import BytesIO
 
-sys.path.insert(1, 'darkflow/clearblade')
-sys.path.insert(2, 'darkflow')
+
 from clearblade.ClearBladeCore import System
 # from darkflow.net.build import TFNet
 # import cv2
