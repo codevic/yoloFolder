@@ -2,7 +2,7 @@
 import sys
 import numpy as np
 # sys.path.insert(0, '/Users/Codeo/yolo_test_MQTT/darkflow/ClearBlade-Python-SDK')
-sys.path.insert(0, '/Users/Codeo/yolo_test_MQTT/darkflow/clearblade')
+sys.path.insert(0, 'darkflow/bin')
 sys.path.insert(1, 'darkflow/clearblade')
 sys.path.insert(2, 'darkflow')
 from clearblade.ClearBladeCore import System, Query, Developer, Users
