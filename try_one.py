@@ -14,6 +14,13 @@ from struct import *
 from PIL import Image
 from io import BytesIO
 
+sys.path.insert(1, 'darkflow/clearblade')
+sys.path.insert(2, 'darkflow')
+from clearblade.ClearBladeCore import System
+# from darkflow.net.build import TFNet
+# import cv2
+# import PIL
+
 
 import time
 
